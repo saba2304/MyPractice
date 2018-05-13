@@ -13,6 +13,7 @@ public class Store {
 		pen.item_name = "pen";
 		pen.item_price = 15;
 		pen.item_qty = 100;
+		System.out.println("in static block");
 		itemValue.put("Pen" ,pen);
 		
 		Item pencil = new Item();
